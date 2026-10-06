@@ -43,260 +43,308 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core run loop, how upgrades stack, and the co-op roles that keep a four-player Shape of Dreams team alive in your first runs."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Traveler",
+          "description": "Compare every Traveler archetype by consistency, survivability, and skill floor so you pick the right dreamer before the first fight."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Best Builds",
+          "description": "Understand the archetypes behind strong Shape of Dreams builds, from one-engine scaling to the character swaps that double your damage windows."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Shape of Dreams."
+          "title": "Boss Guide",
+          "description": "Read boss telegraphs, scout each phase on your first attempt, and learn the patterns that end most Shape of Dreams runs."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending Shape of Dreams Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Traveler Tier List",
+        "Best Builds",
+        "Memories & Essences"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "Shape of Dreams Beginner Guide",
+          "description": "Core mechanics, upgrade priorities, and co-op roles for your first runs.",
+          "href": "/guide/shape-of-dreams-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Codes",
+          "title": "Shape of Dreams Codes",
+          "description": "The honest status of active codes and where official ones would appear first.",
+          "href": "/codes/shape-of-dreams-codes"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Tier List",
+          "title": "Shape of Dreams Traveler Tier List",
+          "description": "Every Traveler archetype ranked by consistency, survivability, and ease of use.",
+          "href": "/guide/shape-of-dreams-traveler-tier-list"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Builds",
+          "title": "Shape of Dreams Best Builds",
+          "description": "The archetypes, stat priorities, and synergy rules behind run-winning setups.",
+          "href": "/guide/shape-of-dreams-best-builds"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Mechanics",
+          "title": "Shape of Dreams Memories",
+          "description": "How to collect, combine, and slot the ability layer of every run.",
+          "href": "/mechanics/shape-of-dreams-memories"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Characters",
+          "title": "Shape of Dreams All Characters",
+          "description": "The full Dreamer roster and the role archetypes behind each kit.",
+          "href": "/characters/shape-of-dreams-all-characters"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Controls",
+          "title": "Shape of Dreams Keybinds",
+          "description": "Full PC and controller control reference for every action.",
+          "href": "/controls/shape-of-dreams-keybinds"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Progression",
+          "title": "Shape of Dreams XP Guide",
+          "description": "How to level up faster and unlock more of the roster.",
+          "href": "/progression/shape-of-dreams-xp"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Shape of Dreams?",
       "paragraphs": [
-        "Shape of Dreams is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Shape of Dreams is a top-down, MOBA-style co-op action roguelite from developer Lizard Smoothie and publisher NEOWIZ. You drop into shifting dream worlds as one of eight Travelers, draft Memories and Essences between fights, and rebuild your power from scratch every run. Combat is fast hack-and-slash, but the real skill is the draft: every upgrade you take narrows or widens the build you can finish.",
+        "Shape of Dreams launched on September 10, 2025 for PC, PlayStation, Xbox, and Nintendo Switch 2, and supports up to four players in online co-op. The game ships with 8 Travelers, 150+ Memories & Essences, 9 Lucid Dreams, and 8 worlds, so there is always another archetype to learn. Our wiki covers the roster, builds, mechanics, bosses, and co-op strategies for every run."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Lizard Smoothie"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Publisher",
+          "value": "NEOWIZ"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Action Roguelite"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Platforms",
+          "value": "PC, PS, Xbox, Switch 2"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Travelers",
+          "value": "8"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Memories & Essences",
+          "value": "150+"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Lucid Dreams",
+          "value": "9"
+        },
+        {
+          "label": "Co-op",
+          "value": "Up to 4 Players"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Shape of Dreams Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Browse every Shape of Dreams guide: codes, builds, Traveler tier lists, beginner walkthroughs, Memories and Essences, Lucid Dreams, bosses, and four-player co-op strategies.",
       "modules": [
         {
           "order": 1,
-          "name": "Shape of Dreams Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
+          "name": "Shape of Dreams Codes",
+          "description": "Track the real status of Shape of Dreams codes, where official ones would be announced, and the safe way to redeem a code if a redemption system is added.",
           "href": "/codes/shape-of-dreams-codes",
-          "displayType": "code-box",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "Status",
+              "detail": "No publicly verified Shape of Dreams codes are active as of this writing"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "Official",
+              "detail": "Any real code would appear first on the Steam news hub and the official Discord"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "Redeem",
+              "detail": "If a redeem field is added it will live in the main menu and is entered exactly as written"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/shape-of-dreams-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Shape of Dreams Builds",
+          "description": "Learn the build archetypes behind strong runs, including Memories, Essences, stat priorities, and the character-swap rhythm that doubles your damage windows.",
+          "href": "/guide/shape-of-dreams-best-builds",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "One Engine",
+              "detail": "Commit to a single damage engine and feed it with every multiplier you find"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Swap Play",
+              "detail": "Use your partner swap on a fixed rhythm to stack two damage windows"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Defense",
+              "detail": "Buy one reliable defensive layer at the first difficulty wall"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/shape-of-dreams-tier-list",
+          "name": "Shape of Dreams Traveler Tier List",
+          "description": "Rank every Traveler archetype by consistency, survivability, and skill floor so you can pick the right dreamer for solo or co-op runs.",
+          "href": "/guide/shape-of-dreams-traveler-tier-list",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Self-sustaining melee bruiser and mobile ranged caster — safe, consistent carries"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Burst melee assassin and summoner — strong specialists with clear payoffs"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Zone-control trapper and support buffer — solid, situational picks"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Glass-cannon nuker and RNG gambler — high risk, high reward"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/shape-of-dreams-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Shape of Dreams Beginner Guide",
+          "description": "A step-by-step first-run walkthrough covering the core loop, upgrade priorities, defensive timing, boss scouting, and how co-op changes every decision.",
+          "href": "/guide/shape-of-dreams-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Pick a dreamer whose kit you can actually pilot, not just the strongest one"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Lock in one damage identity in the first few rooms and feed it"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Add a reliable defensive layer before the first difficulty spike"
+            },
+            {
+              "label": "4",
+              "detail": "Scout boss patterns on your first attempt instead of racing damage"
+            },
+            {
+              "label": "5",
+              "detail": "Spend meta currency on flexibility, then try a new archetype"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/shape-of-dreams-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Shape of Dreams Memories and Essences",
+          "description": "Understand the two systems that shape every build: run-scoped Memories, their fusion rules, and the Essence slots that trade flexibility for power.",
+          "href": "/mechanics/shape-of-dreams-memories",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Run Scope",
+              "detail": "Memories last for a single dream while permanent unlocks are account-wide"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Fusion",
+              "detail": "Combine two memories for a stronger pick, but only when it will not break your core"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Slots",
+              "detail": "Every Essence you take is a trade against future flexibility"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/shape-of-dreams-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Shape of Dreams Lucid Dreams",
+          "description": "Explore the Lucid Dreams that reshape each attempt, the modifiers they add, and how to rebuild your draft around the challenge in front of you.",
+          "href": "/mechanics/shape-of-dreams-lucid-dreams",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Modifiers",
+              "detail": "Lucid Dreams layer run modifiers that change how each attempt plays out"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Nine Runs",
+              "detail": "Shape of Dreams ships with nine Lucid Dreams, each with its own challenge curve"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Adapt",
+              "detail": "Rework your build around the active modifier instead of forcing one plan"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Shape of Dreams Boss Guide",
+          "description": "Break down boss telegraphs, phase changes, and the patterns that end most runs, plus the scouting habits that turn a wipe into a plan.",
+          "href": "/guide/shape-of-dreams-achievement-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Telegraphs",
+              "detail": "Bosses wind up heavily; read the animation instead of watching the health bar"
+            },
+            {
+              "label": "Scout",
+              "detail": "Treat your first attempt as a scouting run and count the phase-one attacks"
+            },
+            {
+              "label": "Patterns",
+              "detail": "Log what killed you each attempt to expose the pattern you keep missing"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Shape of Dreams Co-op Guide",
+          "description": "Plan four-player runs with clear team roles, shared cooldowns, and build synergy that keeps a Shape of Dreams party alive through every boss phase.",
+          "href": "/guide/shape-of-dreams-build-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Four Up",
+              "detail": "Shape of Dreams supports up to four players and scales difficulty with the group"
+            },
+            {
+              "label": "Roles",
+              "detail": "Assign frontline, damage, support, and flex duties before the run starts"
+            },
+            {
+              "label": "Revives",
+              "detail": "Revives are the most valuable resource; never split up in an unfamiliar room"
             }
           ]
         }
@@ -308,23 +356,27 @@
       "items": [
         {
           "question": "What is Shape of Dreams?",
-          "answer": "Shape of Dreams is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Shape of Dreams is a top-down co-op action roguelite from Lizard Smoothie and NEOWIZ. You play as one of eight Travelers, draft Memories and Essences between fights, and rebuild your build from scratch every run across shifting dream worlds."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Shape of Dreams playable in co-op?",
+          "answer": "Yes. Shape of Dreams supports up to four players in online co-op, and enemy difficulty scales with the size of your party. Assign frontline, damage, support, and flex roles so the team never starves itself of crowd control."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How many Travelers are in Shape of Dreams?",
+          "answer": "Shape of Dreams ships with eight Travelers, each with a unique kit that shapes which Memories and Essences scale for your run. Archetypes range from melee bruisers and assassins to ranged casters and support picks."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Does Shape of Dreams have codes?",
+          "answer": "There are currently no active Shape of Dreams codes. If a redemption system is added, official Shape of Dreams codes would be announced first on the Steam news hub and the official Discord."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "What are Memories and Essences in Shape of Dreams?",
+          "answer": "Memories are the run-scoped ability layer of a Shape of Dreams build, and combining two of them can create a stronger result. Essences are the slotted passives that anchor your archetype, so every Essence you take is a trade against future flexibility."
+        },
+        {
+          "question": "Which platforms is Shape of Dreams on?",
+          "answer": "Shape of Dreams launched on September 10, 2025 for PC, PlayStation, Xbox, and Nintendo Switch 2, and it supports up to four players in online co-op."
         }
       ]
     },

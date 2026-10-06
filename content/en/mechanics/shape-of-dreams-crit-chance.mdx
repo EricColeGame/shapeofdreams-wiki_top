@@ -1,0 +1,135 @@
+export const metadata = {
+  title: "Shape of Dreams Crit Chance Explained: How Critical Hits Work and How to Build Them",
+  description: "A practical breakdown of Shape of Dreams crit chance: how critical hits roll, which Memories and Essences scale them, and how to build a crit setup.",
+  category: "mechanics",
+  date: "2026-10-06",
+}
+
+## Why Shape of Dreams Crit Chance Deserves a Spot in Every Build Plan
+
+Crit chance in Shape of Dreams is the stat that decides how often your damage gets multiplied, and it's also the stat most players misjudge. Getting the Shape of Dreams crit chance system right matters because a run only hands you so many upgrades — every slot spent chasing crits is a slot not spent on raw damage or survivability. This guide covers how crit rolls work, how crit chance stacks with crit damage, where each source comes from, and the build targets that actually pay off.
+
+Because the game is a run-based action roguelike, your damage profile is assembled on the fly. Two players can pick the same Dreamer, the same starting skill, and end up with wildly different output purely because one of them understood how crit interacts with their kit and the other did not. The good news is that the underlying math is simple enough to do in your head mid-run.
+
+### The core crit terms, defined
+
+Before optimizing anything, get the vocabulary straight. Tooltips in the Essence (skill) and Memory (upgrade) systems use slightly different phrasing, but they all describe the same handful of values.
+
+| Term | What it means | Why it matters in a run |
+|---|---|---|
+| Crit chance | The probability that a hit becomes a critical hit | The stat you actively stack |
+| Crit damage / crit multiplier | The damage multiplier applied when a crit lands | Makes each crit worth chasing |
+| Expected damage | Average damage per hit across many rolls | The only number that predicts clear speed |
+| Crit roll | The per-hit check against your crit chance | More hits per second = closer to average |
+| Effective crit | Your crit chance after enemy resistance or caps | Explains why 100% crit can still feel weak |
+
+A useful mental model: crit chance is a frequency stat, crit damage is a magnitude stat. They are worthless in isolation. A build with 80% crit chance and no crit damage bonus is barely better than a build with none at all, and a build with a huge crit multiplier but 5% crit chance is essentially gambling.
+
+## Where Shape of Dreams Crit Chance Comes From
+
+Player experience points to a handful of reliable buckets. Some are permanent for the duration of a run, some are conditional, and a few are traps that look stronger than they are. The table below sorts them by how much you should trust them when planning a build.
+
+| Source | How it grants crit chance | Reliability | Builder's note |
+|---|---|---|---|
+| Memory upgrades | Flat or percentage crit added to your damage profile | High — lasts the whole run | The safest early investment |
+| Essence upgrades | Specific skills gain crit chance or crit modifiers when upgraded | Medium — skill-specific | Excellent on multi-hit skills, weaker on one-big-hit skills |
+| Dreamer traits and passives | Innate bonuses tied to your chosen character | High but fixed | Check your character before committing to a crit plan |
+| Conditional relics and dream items | Crit granted only while a condition is met (low health, after a dodge, first hit) | Situational | Strong numbers, unreliable uptime |
+| Co-op party buffs | Shared auras or support skills that raise crit for allies | Depends on team | Coordinate so buffs don't stack on the same player |
+| Temporary blessings and run events | Short-lived crit boosts from mid-run choices | Variable | Treat as a bonus, never as your foundation |
+
+A quick practical tip: before you commit to a crit build, open your character's trait panel and read it properly. Several Dreamers have crit-relevant passives baked in, and doubling down on an existing strength is almost always cheaper than manufacturing one from nothing.
+
+For patch-level changes to these systems, the [Shape of Dreams page on Steam](https://store.steampowered.com/search/?term=Shape+of+Dreams) is the most reliable place to check official notes rather than relying on secondhand summaries.
+
+## Crit Chance vs. Crit Damage: The Math You Should Actually Run
+
+You do not need a spreadsheet, but you do need one formula:
+
+**Expected damage = Base damage × (1 + Crit Chance × (Crit Damage − 1))**
+
+Crit chance goes in as a decimal (50% = 0.5) and crit damage goes in as a multiplier (a +50% crit bonus = 1.5). The table below uses an illustrative base hit of 100 damage so the tradeoffs are easy to see. These are example figures, not in-game caps.
+
+| Crit chance | Crit multiplier | Expected damage per hit | Gain vs. no crit |
+|---|---|---|---|
+| 0% | 1.5x | 100 | — |
+| 25% | 1.5x | 112.5 | +12.5% |
+| 50% | 1.5x | 125 | +25% |
+| 75% | 1.5x | 137.5 | +37.5% |
+| 50% | 2.0x | 150 | +50% |
+| 75% | 2.0x | 175 | +75% |
+
+Two lessons jump out. First, each point of crit chance adds the same absolute amount to expected damage — there is no hidden diminishing return inside the formula. Second, its **relative** value shrinks as your totals grow, which is why crit damage frequently wins once your crit chance is already high.
+
+### Why variance matters as much as averages
+
+Expected damage is an average, and averages only show up over many rolls. A rapid multi-hit skill might roll crit dozens of times per second and settle near its average almost immediately. A slow, single-instance nuke might roll twice in a fight, so a 60% crit chance can genuinely produce zero crits in a boss window.
+
+If your build leans on big, slow hits, overinvest in crit chance for consistency. If it leans on fast, numerous hits, you can be more relaxed and let volume do the work.
+
+## How Much Shape of Dreams Crit Chance Do You Actually Need?
+
+There is no universal cap, but player experience converges on a few comfortable ranges depending on what your kit does. Treat the numbers below as starting points and adjust for your character and party.
+
+| Build archetype | Comfortable crit chance | Invest first in | Reasoning |
+|---|---|---|---|
+| Rapid multi-hit | 40–60% | Crit damage | Many rolls smooth out bad luck |
+| Single heavy hits | 60–75% | Crit chance | One roll per cast, so consistency is king |
+| Damage-over-time | Test in-game | Raw damage or ailment scaling | Community reports differ on whether ticks can crit |
+| Hybrid / support | 20–35% | Utility and survivability | Crit is a bonus, not the identity |
+| Boss burst windows | 70%+ | Both, balanced | Short windows mean misses hurt badly |
+
+A reliable method for finding your own number: run a few encounters at a fixed crit chance, then swap one crit Memory for a crit damage Memory and compare clear times. The difference is usually obvious within two or three runs, and it is far more trustworthy than any tier list.
+
+## Step-by-Step: Building Crit Into a Run
+
+Crit builds fail most often because of sequencing, not because of bad luck. Work through the following order.
+
+| Step | Action | Why it matters |
+|---|---|---|
+| 1 | Lock in a damage skill with the right hit pattern | Multi-hit and single-hit skills need different crit budgets |
+| 2 | Take crit chance from Memories early | Early crit compounds across the rest of the run |
+| 3 | Add crit damage once crit chance passes roughly 40% | Magnitude becomes the better buy at that point |
+| 4 | Add conditional relics only if you can keep them active | Dead conditions mean dead stats |
+| 5 | Re-check your Dreamer's traits before the final boss | Free crit from passives changes your target number |
+| 6 | Trim one crit source if you are overcapped | Wasted stats are the most common late-run mistake |
+
+Notice that survivability never appears in that list — but it should still be on your mind. A crit build that dies in the second act deals less total damage than a modest build that reaches the end. Crit is a damage multiplier, and multipliers only matter if you are still alive to apply them.
+
+## Common Crit Mistakes in Shape of Dreams
+
+Most crit problems come down to a short list of fixable errors. Community reports repeatedly flag the same ones.
+
+- **Stacking crit chance with no crit damage.** Crit chance without a multiplier just produces slightly bigger numbers with no real payoff.
+- **Ignoring your character's innate traits.** Some Dreamers already have crit built into their kit, making further investment cheaper — or redundant.
+- **Building around conditional buffs.** Crit that only works below 30% health is crit you rarely get to use.
+- **Overlooking party composition in co-op.** Duplicate crit auras are wasted slots that could have been damage or defense.
+- **Never testing the result.** Reading tooltips is not the same as timing a boss kill.
+
+| Mistake | Symptom in a run | Fix |
+|---|---|---|
+| Chance-only build | Crits land often but hit softly | Trade one chance source for crit damage |
+| Damage-only build | Rare, enormous crits that never appear when needed | Add crit chance until it feels consistent |
+| Conditional overload | Stats look great on paper, feel weak in practice | Limit yourself to one conditional source |
+| Overcapping | Late-run upgrades do nothing | Audit your totals before the final act |
+| Ignoring hit pattern | Build works on trash, fails on bosses | Match your crit budget to your skill's roll count |
+
+## FAQ
+
+**Is crit chance worth building in Shape of Dreams?**
+
+Usually yes, but only alongside crit damage. A balanced investment of roughly 50–70% crit chance plus a meaningful crit multiplier produces the best expected damage for most kits. If your build has no crit damage available, spend those slots on raw damage instead.
+
+**Does crit chance apply to damage-over-time effects?**
+
+Community reports are inconsistent on this point, and it may vary by skill and by patch. Test it yourself with a controlled encounter before building around it — if ticks do not crit, that stat is better spent on ailment or raw damage scaling.
+
+**What is a good crit chance target for boss fights?**
+
+Boss windows are short, so consistency beats ceiling. Most players aim for 60–75% crit chance on single-hit builds to reduce the chance of a zero-crit burst phase, and they accept lower values on rapid multi-hit skills where volume smooths out the roll.
+
+**Do crit stats work the same way in co-op?**
+
+The math is identical per player, but buffs can overlap. Coordinate with your party so crit auras spread across different damage dealers rather than stacking on one person. That single habit improves group damage more than any individual upgrade choice.
+
+Ultimately, the Shape of Dreams crit chance system rewards planning over luck. Understand your skill's hit pattern, balance frequency against magnitude, and keep your sources reliable — and the stat stops feeling like a gamble and starts feeling like the multiplier it was always meant to be.

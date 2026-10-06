@@ -1,0 +1,150 @@
+export const metadata = {
+  title: "Shape of Dreams Controller Guide: Setup, Button Mapping, and Fixes",
+  description: "Full Shape of Dreams controller support explained: default button layout, gamepad vs mouse, deadzone tuning, and fixes for common connection issues.",
+  category: "controls",
+  date: "2026-10-06",
+}
+
+If you have ever wiped on a dream boss because your thumb was still hunting for the dash button, you already know why a good **Shape of Dreams controller** setup matters. This roguelike throws waves of enemies, telegraphed boss patterns, and rapid ability rotations at you, and the input method you choose shapes how quickly you react. The good news is that **Shape of Dreams controller** support is built directly into the PC version, so you are not relying on third-party wrappers or workarounds. The better news is that a few minutes in the options menu can turn a serviceable pad experience into one that feels like the game was designed around it.
+
+This guide walks through what controller support actually looks like, how the default bindings map to the game's combat loop, when a keyboard and mouse might still be the smarter pick, and how to fix the connection problems that trip up new players.
+
+## Does Shape of Dreams Support Controllers?
+
+Yes. The PC release ships with native gamepad support, which means the game reads your controller directly instead of routing everything through a compatibility layer. Xbox-style XInput pads are the smoothest experience, but PlayStation controllers, Switch Pro pads, and most modern third-party gamepads work as well.
+
+Because the combat is built around a twin-stick style loop — moving with one input while aiming abilities with another — a controller is arguably the most natural fit for the genre. You get analog movement in eight directions instead of four, and your ability buttons sit under your thumbs rather than spread across a keyboard.
+
+| Device or Platform | Controller Support | Notes |
+|---|---|---|
+| Windows PC (Steam) | Native | XInput pads detected automatically |
+| Steam Deck | Native | Handheld controls plus docked gamepads |
+| Xbox Wireless Controller | Excellent | Closest match to the default layout |
+| DualSense / DualShock 4 | Very good | Rumble works; haptics vary by build |
+| Switch Pro Controller | Good | May need Steam Input enabled |
+| Third-party XInput pads | Good | 8BitDo and similar brands generally fine |
+| Generic DirectInput pads | Mixed | Remapping is often required |
+
+If your pad does not appear in-game, the culprit is usually Steam Input intercepting the signal rather than the game itself. More on that in the troubleshooting section.
+
+## Default Shape of Dreams Controller Layout
+
+The exact bindings can be remapped, but the shipped layout follows standard action-roguelike conventions. Here is the typical arrangement you should expect when you first plug in a pad.
+
+| Input | Action | Why It Matters |
+|---|---|---|
+| Left stick | Move | Analog movement helps you dodge around projectiles |
+| Right stick | Aim | Lets you fire abilities independently of movement |
+| Right trigger | Basic attack | Held down constantly during fights |
+| Left trigger | Primary ability | Your main damage or utility skill |
+| Face buttons | Secondary abilities | Cooldown-based skills and ultimates |
+| Shoulder button | Dash / evade | The single most important button in the game |
+| D-pad | Consumables, party actions | Quick access without opening menus |
+| Start / Menu | Pause and settings | Also used for build menus between rooms |
+| View / Select | Map or party info | Handy in co-op runs |
+
+A common complaint in community reports is that the dash sits somewhere awkward on third-party pads with unusual button shapes. If that sounds like you, remap dash to a bumper or a trigger you can hit without shifting your grip.
+
+### Tuning Sensitivity and Deadzone
+
+Out of the box, most pads feel slightly sluggish in a fast roguelike. These starting points are suggestions, not in-game defaults — adjust to taste.
+
+| Setting | Suggested Starting Point | What It Changes |
+|---|---|---|
+| Aim sensitivity | Medium-high | How fast your aiming reticle tracks the stick |
+| Deadzone | Low, around 10 percent | How far you must push before input registers |
+| Rumble | On | Useful feedback for hits and boss telegraphs |
+| Invert aim | Off | Personal preference only |
+| Button layout | Custom | Prioritize dash and your main ability |
+
+If your character drifts when you are not touching the stick, your deadzone is too low or your stick has drift. Raising it slightly usually solves the problem without hurting responsiveness.
+
+## Controller vs Keyboard and Mouse: Which Should You Use?
+
+This is the question that fills most control threads, and the honest answer is that it depends on how you like to aim. Neither input is strictly superior in this game.
+
+| Criteria | Gamepad | Keyboard and Mouse |
+|---|---|---|
+| Movement | Smooth, analog, eight-way plus | Snappy but limited to four directions |
+| Aiming | Directional, assisted by the right stick | Precise, direct cursor control |
+| Ability access | Buttons under your thumbs | Fast access, more keys available |
+| Long sessions | Comfortable, relaxed posture | Can strain wrists over hours |
+| Co-op on a couch | Easy to hand off | Awkward |
+| Setup friction | Occasionally needs troubleshooting | Almost always plug and play |
+
+If you play a lot of twin-stick games or action roguelikes, the transition to a **Shape of Dreams controller** is nearly seamless. If you come from MOBAs or shooters and rely on precise cursor placement, keyboard and mouse may click faster for you. Many players keep both connected and swap depending on the run.
+
+## How to Set Up Your Shape of Dreams Controller
+
+Setup takes about five minutes if you follow a sensible order. Skipping steps is how people end up with double inputs or a pad that "works" but feels wrong.
+
+| Step | What to Do | Why It Helps |
+|---|---|---|
+| 1 | Connect the pad before launching the game | Ensures detection at startup |
+| 2 | Open Steam and confirm the controller is recognized | Rules out driver-level problems |
+| 3 | Launch the game and open the controls menu | Confirms the game sees your device |
+| 4 | Test movement and aim in a safe area | Identifies deadzone issues early |
+| 5 | Remap dash and your main ability first | These two inputs matter most |
+| 6 | Run one short practice run before a real attempt | Builds muscle memory cheaply |
+
+A few extra habits go a long way:
+
+- Prefer a wired connection or a fresh battery — Bluetooth dropouts mid-boss are brutal.
+- Keep only one input device active if you see double inputs.
+- Write down or screenshot your final bindings so you can restore them after an update.
+- If you play on a TV, check that your display's game mode is on to reduce input lag.
+
+### Community-Reported Friction Points
+
+Player experience suggests the two most common frustrations are Steam Input conflicts and rumble behaving differently across controller brands. Neither is game-breaking, and both have straightforward fixes.
+
+## Troubleshooting Common Shape of Dreams Controller Problems
+
+When a pad stops responding, work from the outside in: cable or battery, then Steam, then the game. Most issues resolve at the Steam layer.
+
+| Symptom | Likely Cause | Fix |
+|---|---|---|
+| Controller not detected | Steam Input conflict | Toggle Steam Input on or off and relaunch |
+| Double inputs | Two devices active at once | Disconnect the unused pad or keyboard |
+| Stick drift | Worn hardware or low deadzone | Raise deadzone or replace the pad |
+| Buttons do nothing | Bindings reset after update | Reapply your custom layout |
+| Random disconnects | Weak Bluetooth signal | Switch to USB or move the receiver |
+| Rumble missing | Unsupported haptics | Enable standard vibration in settings |
+
+If none of that works, verify your game files through Steam, update your controller firmware, and try a different USB port. For reference on supported features and the latest patch notes, check the [official Shape of Dreams page on Steam](https://store.steampowered.com/search/?term=Shape+of+Dreams), which is the most reliable source for platform details.
+
+## Advanced Tips for Co-op, Steam Deck, and Accessibility
+
+Controller support is not just about solo play. In co-op runs, each player needs their own input method, and a **Shape of Dreams controller** makes it easy to hand a pad to a friend without reconfiguring anything.
+
+| Scenario | Recommended Setup | Reason |
+|---|---|---|
+| Online co-op, two players | One pad, one mouse and keyboard | Fastest to set up |
+| Couch play with guests | Two wireless pads | Simple hand-off, no desk needed |
+| Steam Deck handheld | Built-in controls | No extra hardware required |
+| Steam Deck docked | Bluetooth pad | Keeps the deck cool and stable |
+| Players with limited mobility | Custom remaps, low deadzone | Reduces strain on hands and wrists |
+
+A few final pointers:
+
+- Bind your most-used ability to a trigger rather than a face button so you never lift your thumb off the aim stick.
+- Use the d-pad for consumables so you are not opening menus mid-fight.
+- If a boss fight feels unfair, try a sensitivity change before blaming the design — small aim tweaks often reveal that the input was the problem.
+- Practice one combo per run until it becomes automatic. Controller mastery in this game is muscle memory, not theory.
+
+## FAQ
+
+**Does Shape of Dreams have full controller support?**
+Yes. The PC version includes native gamepad support, with Xbox-style pads offering the smoothest experience. PlayStation, Switch Pro, and most third-party pads also work, though some may need remapping or Steam Input enabled.
+
+**Can I remap the Shape of Dreams controller bindings?**
+In most builds, yes — the controls menu lets you reassign movement, aim, attacks, and abilities. Community reports suggest remapping dash and your primary ability first, since those two inputs carry the most weight in combat.
+
+**Why is my controller not detected by the game?**
+The most common cause is a Steam Input conflict rather than a hardware fault. Toggle Steam Input, relaunch the game, and make sure only one input device is connected. If problems persist, verify your game files and update your controller firmware.
+
+**Is a controller better than keyboard and mouse in this game?**
+Neither is strictly better. A **Shape of Dreams controller** gives you smooth analog movement and comfortable long sessions, while keyboard and mouse offer more precise aiming. Many players keep both connected and switch based on the run.
+
+**What should I do if my character drifts without touching the stick?**
+That is stick drift or an overly low deadzone. Raise the deadzone slightly in the settings, and if the problem continues, test the pad in another game to confirm whether the hardware is worn out.

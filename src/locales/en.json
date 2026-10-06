@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "progression": "Progression",
+    "controls": "Controls",
+    "codes": "Codes"
   },
   "home": {
     "meta": {
@@ -387,7 +394,34 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Shape of Dreams Guides",
+    "overviewDescription": "Step-by-step Shape of Dreams guides covering the beginner loop, builds, tier lists, tips and tricks, and achievements."
+  },
+  "characters": {
+    "overviewTitle": "Shape of Dreams Characters",
+    "overviewDescription": "Profiles for every Shape of Dreams Traveler, including Bismuth, Aurena, Vesper, Nachia, and Yubar, plus the full roster."
+  },
+  "mechanics": {
+    "overviewTitle": "Shape of Dreams Mechanics",
+    "overviewDescription": "How Memories, Essences, attack effects, ability power, crit chance, and Lucid Dreams shape every Shape of Dreams run."
+  },
+  "items": {
+    "overviewTitle": "Shape of Dreams Items",
+    "overviewDescription": "Artifacts, Souvenirs, Unique Memories, the Guiding Compass, and Essence tier lists explained for Shape of Dreams."
+  },
+  "progression": {
+    "overviewTitle": "Shape of Dreams Progression",
+    "overviewDescription": "Unlock guides for characters, Bismuth, Limbo, and Shell, plus the fastest ways to earn XP in Shape of Dreams."
+  },
+  "controls": {
+    "overviewTitle": "Shape of Dreams Controls",
+    "overviewDescription": "Keybinds, controller support, quick cast, and movement speed settings for Shape of Dreams on PC and consoles."
+  },
+  "codes": {
+    "overviewTitle": "Shape of Dreams Codes",
+    "overviewDescription": "All active Shape of Dreams codes and how to redeem them, updated as new rewards go live."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -418,9 +452,9 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Official Website",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "builds": "Builds",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

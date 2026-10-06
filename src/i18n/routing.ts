@@ -3,11 +3,11 @@ import { siteConfig } from "@/config/site";
 
 export const locales = ["en", "ko", "ru", "ja"] as const;
 
+export type Locale = (typeof locales)[number];
+
 export const routing = defineRouting({
   locales,
-  defaultLocale: siteConfig.defaultLocale,
+  defaultLocale: siteConfig.defaultLocale as Locale,
   localePrefix: "always",
   localeDetection: false,
 });
-
-export type Locale = (typeof routing.locales)[number];

@@ -1,1 +1,461 @@
-{}
+{
+  "site": {
+    "name": "Shape of Dreams 위키",
+    "shortName": "Shape of Dreams",
+    "tagline": "완벽 가이드, 빌드, 여행자 & 티어 리스트",
+    "description": "Shape of Dreams 위키는 여행자, 빌드, 기억, 정수, 루시드 드림, 보스, 맵, 협동 전략, 업데이트, 모든 런을 위한 초보자 가이드를 다룹니다.",
+    "legalNotice": "비공식 팬 위키입니다. 플레이어가 플레이어를 위해 만들었습니다."
+  },
+  "nav": {
+    "home": "홈",
+    "menu": "메뉴",
+    "toggleTheme": "테마 전환",
+    "guide": "가이드",
+    "characters": "캐릭터",
+    "mechanics": "메커니즘",
+    "items": "아이템",
+    "progression": "성장",
+    "controls": "조작",
+    "codes": "코드"
+  },
+  "home": {
+    "meta": {
+      "title": "Shape of Dreams 위키 - 빌드, 캐릭터 & 가이드",
+      "description": "Shape of Dreams 위키는 여행자, 빌드, 기억, 정수, 루시드 드림, 보스, 맵, 협동 전략, 업데이트, 모든 런을 위한 초보자 가이드를 다룹니다."
+    },
+    "hero": {
+      "eyebrow": "협동 액션 로그라이트",
+      "title": "Shape of Dreams 위키",
+      "description": "Shape of Dreams는 핵앤슬래시 전투, MOBA 스타일 팀워크, 유연한 빌드, 최대 4인 협동을 끊임없이 변화하는 꿈의 세계에서 펼치는 빠른 템포의 액션 로그라이트입니다.",
+      "stats": [
+        "사용자 리뷰 20K+",
+        "여행자 8명",
+        "기억 & 정수 150+",
+        "루시드 드림 9개"
+      ],
+      "primaryCta": "초보자 가이드",
+      "secondaryCta": "Steam에서 플레이",
+      "tertiaryCta": "여행자 & 빌드",
+      "videoLabel": "공식 출시 트레일러"
+    },
+    "updates": {
+      "title": "최신 업데이트",
+      "browse": "모든 가이드 보기",
+      "viewAll": "전체 보기"
+    },
+    "start": {
+      "eyebrow": "여기서 시작",
+      "title": "당신의 Shape of Dreams 여정",
+      "cards": [
+        {
+          "number": "1",
+          "title": "초보자 가이드",
+          "description": "핵심 런 루프, 업그레이드가 중첩되는 방식, 첫 런에서 4인 팀을 살려내는 협동 역할을 배우세요."
+        },
+        {
+          "number": "2",
+          "title": "최고의 여행자",
+          "description": "일관성, 생존력, 숙련 난이도로 모든 여행자 아키타입을 비교해 첫 전투 전에 올바른 드리머를 고르세요."
+        },
+        {
+          "number": "3",
+          "title": "최고의 빌드",
+          "description": "단일 엔진 스케일링부터 피해 창을 두 배로 늘리는 캐릭터 교체까지, 강력한 Shape of Dreams 빌드의 아키타입을 이해하세요."
+        },
+        {
+          "number": "4",
+          "title": "보스 가이드",
+          "description": "보스 예비 동작을 읽고 첫 시도에 각 페이즈를 정찰하며 대부분의 Shape of Dreams 런을 끝내는 패턴을 익히세요."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "인기 페이지",
+      "title": "인기 Shape of Dreams 가이드",
+      "quickLinks": [
+        "초보자 가이드",
+        "여행자 티어 리스트",
+        "최고의 빌드",
+        "기억 & 정수"
+      ],
+      "cards": [
+        {
+          "badge": "초보자",
+          "title": "Shape of Dreams 초보자 가이드",
+          "description": "핵심 메커니즘, 업그레이드 우선순위, 첫 런을 위한 협동 역할.",
+          "href": "/guide/shape-of-dreams-beginner-guide"
+        },
+        {
+          "badge": "코드",
+          "title": "Shape of Dreams 코드",
+          "description": "활성 코드의 정직한 현황과 공식 코드가 가장 먼저 등장할 위치.",
+          "href": "/codes/shape-of-dreams-codes"
+        },
+        {
+          "badge": "티어 리스트",
+          "title": "Shape of Dreams 여행자 티어 리스트",
+          "description": "일관성, 생존력, 사용 편의성으로 순위를 매긴 모든 여행자 아키타입.",
+          "href": "/guide/shape-of-dreams-traveler-tier-list"
+        },
+        {
+          "badge": "빌드",
+          "title": "Shape of Dreams 최고의 빌드",
+          "description": "런을 승리로 이끄는 아키타입, 스탯 우선순위, 시너지 규칙.",
+          "href": "/guide/shape-of-dreams-best-builds"
+        },
+        {
+          "badge": "메커니즘",
+          "title": "Shape of Dreams 기억",
+          "description": "모든 런의 능력 레이어를 수집하고 결합하고 장착하는 방법.",
+          "href": "/mechanics/shape-of-dreams-memories"
+        },
+        {
+          "badge": "캐릭터",
+          "title": "Shape of Dreams 모든 캐릭터",
+          "description": "전체 드리머 로스터와 각 키트 뒤의 역할 아키타입.",
+          "href": "/characters/shape-of-dreams-all-characters"
+        },
+        {
+          "badge": "조작",
+          "title": "Shape of Dreams 키 설정",
+          "description": "모든 동작에 대한 PC 및 컨트롤러 조작 레퍼런스.",
+          "href": "/controls/shape-of-dreams-keybinds"
+        },
+        {
+          "badge": "성장",
+          "title": "Shape of Dreams XP 가이드",
+          "description": "더 빠르게 레벨업하고 더 많은 로스터를 해금하는 방법.",
+          "href": "/progression/shape-of-dreams-xp"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Shape of Dreams란?",
+      "paragraphs": [
+        "Shape of Dreams는 개발사 Lizard Smoothie와 퍼블리셔 NEOWIZ가 만든 탑다운 MOBA 스타일 협동 액션 로그라이트입니다. 여덟 명의 여행자 중 하나로 변화하는 꿈의 세계에 뛰어들어 전투 사이에 기억과 정수를 드래프트하고 매 런마다 처음부터 힘을 다시 쌓습니다. 전투는 빠른 핵앤슬래시지만 진짜 실력은 드래프트에 있습니다. 선택하는 모든 업그레이드가 완성할 빌드를 좁히거나 넓힙니다.",
+        "Shape of Dreams는 2025년 9월 10일 PC, PlayStation, Xbox, Nintendo Switch 2로 출시되었으며 최대 4인 온라인 협동을 지원합니다. 여행자 8명, 기억 & 정수 150+, 루시드 드림 9개, 8개 세계가 포함되어 있어 배울 아키타입이 항상 남아 있습니다. 저희 위키는 로스터, 빌드, 메커니즘, 보스, 모든 런의 협동 전략을 다룹니다."
+      ],
+      "stats": [
+        {
+          "label": "개발사",
+          "value": "Lizard Smoothie"
+        },
+        {
+          "label": "퍼블리셔",
+          "value": "NEOWIZ"
+        },
+        {
+          "label": "장르",
+          "value": "액션 로그라이트"
+        },
+        {
+          "label": "플랫폼",
+          "value": "PC, PS, Xbox, Switch 2"
+        },
+        {
+          "label": "여행자",
+          "value": "8"
+        },
+        {
+          "label": "기억 & 정수",
+          "value": "150+"
+        },
+        {
+          "label": "루시드 드림",
+          "value": "9"
+        },
+        {
+          "label": "협동",
+          "value": "최대 4인"
+        }
+      ],
+      "cta": "모든 가이드 탐색"
+    },
+    "explore": {
+      "title": "Shape of Dreams 위키 탐색",
+      "description": "코드, 빌드, 여행자 티어 리스트, 초보자 워크스루, 기억과 정수, 루시드 드림, 보스, 4인 협동 전략까지 모든 Shape of Dreams 가이드를 둘러보세요.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Shape of Dreams 코드",
+          "description": "Shape of Dreams 코드의 실제 현황, 공식 코드가 공지될 위치, 코드 교환 시스템이 추가될 경우 안전하게 사용하는 방법을 확인하세요.",
+          "href": "/codes/shape-of-dreams-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "상태",
+              "detail": "작성 시점 기준으로 공개적으로 검증된 활성 Shape of Dreams 코드는 없습니다"
+            },
+            {
+              "label": "공식",
+              "detail": "실제 코드가 있다면 Steam 뉴스 허브와 공식 Discord에 가장 먼저 등장할 것입니다"
+            },
+            {
+              "label": "사용",
+              "detail": "사용 입력란이 추가되면 메인 메뉴에 위치하며 표기된 그대로 입력합니다"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Shape of Dreams 빌드",
+          "description": "기억, 정수, 스탯 우선순위, 피해 창을 두 배로 늘리는 캐릭터 교체 리듬을 포함해 강력한 런을 만드는 빌드 아키타입을 배우세요.",
+          "href": "/guide/shape-of-dreams-best-builds",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "단일 엔진",
+              "detail": "하나의 피해 엔진에 집중하고 찾는 모든 배율을 여기에 투자하세요"
+            },
+            {
+              "label": "교체 플레이",
+              "detail": "파트너 교체를 일정한 리듬으로 사용해 두 개의 피해 창을 쌓으세요"
+            },
+            {
+              "label": "방어",
+              "detail": "첫 난이도 벽에서 신뢰할 수 있는 방어 레이어 하나를 구매하세요"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Shape of Dreams 여행자 티어 리스트",
+          "description": "일관성, 생존력, 숙련 난이도로 모든 여행자 아키타입을 순위 매겨 솔로 또는 협동 런에 맞는 드리머를 고르세요.",
+          "href": "/guide/shape-of-dreams-traveler-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "자급자족 근접 브루저와 기동형 원거리 캐스터 — 안전하고 일관된 캐리"
+            },
+            {
+              "label": "A",
+              "detail": "폭발형 근접 암살자와 소환사 — 확실한 보상을 지닌 강력한 특화"
+            },
+            {
+              "label": "B",
+              "detail": "지역 제어 트래퍼와 지원 버퍼 — 견고한 상황별 선택"
+            },
+            {
+              "label": "C",
+              "detail": "유리 대포 누커와 RNG 도박꾼 — 높은 위험, 높은 보상"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Shape of Dreams 초보자 가이드",
+          "description": "핵심 루프, 업그레이드 우선순위, 방어 타이밍, 보스 정찰, 협동이 모든 결정을 바꾸는 방식을 다루는 단계별 첫 런 워크스루.",
+          "href": "/guide/shape-of-dreams-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "단지 가장 강한 드리머가 아니라 실제로 운용할 수 있는 키트의 드리머를 고르세요"
+            },
+            {
+              "label": "2",
+              "detail": "처음 몇 방에서 하나의 피해 정체성을 확정하고 집중하세요"
+            },
+            {
+              "label": "3",
+              "detail": "첫 난이도 급등 전에 신뢰할 수 있는 방어 레이어를 추가하세요"
+            },
+            {
+              "label": "4",
+              "detail": "피해 경쟁 대신 첫 시도에 보스 패턴을 정찰하세요"
+            },
+            {
+              "label": "5",
+              "detail": "메타 화폐는 유연성에 쓰고 새로운 아키타입을 시도하세요"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Shape of Dreams 기억과 정수",
+          "description": "모든 빌드를 형성하는 두 시스템을 이해하세요: 런 단위 기억과 융합 규칙, 유연성을 힘과 맞바꾸는 정수 슬롯.",
+          "href": "/mechanics/shape-of-dreams-memories",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "런 범위",
+              "detail": "기억은 하나의 꿈 동안만 지속되지만 영구 해금은 계정 전체에 적용됩니다"
+            },
+            {
+              "label": "융합",
+              "detail": "핵심을 망가뜨리지 않을 때만 두 기억을 결합해 더 강한 선택을 만드세요"
+            },
+            {
+              "label": "슬롯",
+              "detail": "장착하는 모든 정수는 미래의 유연성과의 거래입니다"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Shape of Dreams 루시드 드림",
+          "description": "각 시도를 재편하는 루시드 드림, 추가되는 변형, 눈앞의 도전에 맞춰 드래프트를 다시 짜는 방법을 알아보세요.",
+          "href": "/mechanics/shape-of-dreams-lucid-dreams",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "변형",
+              "detail": "루시드 드림은 각 시도의 진행 방식을 바꾸는 런 변형을 더합니다"
+            },
+            {
+              "label": "아홉 번의 런",
+              "detail": "Shape of Dreams에는 각기 다른 난이도 곡선을 지닌 아홉 개의 루시드 드림이 있습니다"
+            },
+            {
+              "label": "적응",
+              "detail": "하나의 계획을 고집하지 말고 활성 변형에 맞춰 빌드를 다시 짜세요"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Shape of Dreams 보스 가이드",
+          "description": "보스 예비 동작, 페이즈 전환, 대부분의 런을 끝내는 패턴을 분석하고 전멸을 계획으로 바꾸는 정찰 습관을 익히세요.",
+          "href": "/guide/shape-of-dreams-achievement-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "예비 동작",
+              "detail": "보스는 크게 준비 동작을 취합니다. 체력 바 대신 애니메이션을 읽으세요"
+            },
+            {
+              "label": "정찰",
+              "detail": "첫 시도를 정찰 런으로 삼고 1페이즈 공격 수를 세세요"
+            },
+            {
+              "label": "패턴",
+              "detail": "매 시도마다 죽인 원인을 기록해 계속 놓치는 패턴을 드러내세요"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Shape of Dreams 협동 가이드",
+          "description": "명확한 팀 역할, 공유 쿨다운, 모든 보스 페이즈에서 Shape of Dreams 파티를 살려내는 빌드 시너지로 4인 런을 계획하세요.",
+          "href": "/guide/shape-of-dreams-build-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "4인 지원",
+              "detail": "Shape of Dreams는 최대 4인을 지원하며 그룹 규모에 따라 난이도가 조정됩니다"
+            },
+            {
+              "label": "역할",
+              "detail": "런 시작 전에 전방, 피해, 지원, 유연 역할을 배정하세요"
+            },
+            {
+              "label": "부활",
+              "detail": "부활은 가장 귀중한 자원입니다. 낯선 방에서 절대 흩어지지 마세요"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "Shape of Dreams에 관한 가장 흔한 질문에 대한 빠른 답변.",
+      "items": [
+        {
+          "question": "Shape of Dreams란?",
+          "answer": "Shape of Dreams는 Lizard Smoothie와 NEOWIZ의 탑다운 협동 액션 로그라이트입니다. 여덟 명의 여행자 중 하나로 플레이하고 전투 사이에 기억과 정수를 드래프트하며 변화하는 꿈의 세계를 넘나들며 매 런마다 빌드를 처음부터 다시 쌓습니다."
+        },
+        {
+          "question": "Shape of Dreams는 협동 플레이가 가능한가요?",
+          "answer": "네. Shape of Dreams는 최대 4인 온라인 협동을 지원하며 적 난이도는 파티 규모에 따라 조정됩니다. 전방, 피해, 지원, 유연 역할을 배정해 팀이 군중 제어를 놓치지 않게 하세요."
+        },
+        {
+          "question": "Shape of Dreams에는 여행자가 몇 명인가요?",
+          "answer": "Shape of Dreams에는 여덟 명의 여행자가 있으며 각자 고유한 키트로 런에서 어떤 기억과 정수가 강해지는지를 결정합니다. 아키타입은 근접 브루저와 암살자부터 원거리 캐스터와 지원 픽까지 다양합니다."
+        },
+        {
+          "question": "Shape of Dreams에 코드가 있나요?",
+          "answer": "현재 활성화된 Shape of Dreams 코드는 없습니다. 코드 교환 시스템이 추가되면 공식 Shape of Dreams 코드는 Steam 뉴스 허브와 공식 Discord에 가장 먼저 공지될 것입니다."
+        },
+        {
+          "question": "Shape of Dreams의 기억과 정수란?",
+          "answer": "기억은 Shape of Dreams 빌드의 런 단위 능력 레이어이며 두 개를 결합하면 더 강한 결과를 만들 수 있습니다. 정수는 아키타입을 떠받치는 장착형 패시브로, 장착하는 모든 정수는 미래의 유연성과의 거래입니다."
+        },
+        {
+          "question": "Shape of Dreams는 어느 플랫폼에서 즐길 수 있나요?",
+          "answer": "Shape of Dreams는 2025년 9월 10일 PC, PlayStation, Xbox, Nintendo Switch 2로 출시되었으며 최대 4인 온라인 협동을 지원합니다."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Shape of Dreams를 마스터할 준비가 되셨나요?",
+      "description": "루시드 드림을 통한 첫 런부터 엔드게임 보스전까지, 저희 커뮤니티 위키가 무료 최신 가이드로 도와드립니다.",
+      "primary": "초보자 가이드 읽기",
+      "secondary": "Steam에서 플레이"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Shape of Dreams 가이드",
+    "overviewDescription": "초보자 루프, 빌드, 티어 리스트, 팁과 요령, 업적을 다루는 단계별 Shape of Dreams 가이드."
+  },
+  "characters": {
+    "overviewTitle": "Shape of Dreams 캐릭터",
+    "overviewDescription": "Bismuth, Aurena, Vesper, Nachia, Yubar를 포함한 모든 Shape of Dreams 여행자 프로필과 전체 로스터."
+  },
+  "mechanics": {
+    "overviewTitle": "Shape of Dreams 메커니즘",
+    "overviewDescription": "기억, 정수, 공격 효과, 능력 위력, 치명타 확률, 루시드 드림이 모든 Shape of Dreams 런을 형성하는 방식."
+  },
+  "items": {
+    "overviewTitle": "Shape of Dreams 아이템",
+    "overviewDescription": "유물, 기념품, 고유 기억, 인도하는 나침반, 정수 티어 리스트를 Shape of Dreams 기준으로 설명."
+  },
+  "progression": {
+    "overviewTitle": "Shape of Dreams 성장",
+    "overviewDescription": "캐릭터, Bismuth, Limbo, Shell 해금 가이드와 Shape of Dreams에서 XP를 가장 빠르게 얻는 방법."
+  },
+  "controls": {
+    "overviewTitle": "Shape of Dreams 조작",
+    "overviewDescription": "PC와 콘솔에서의 Shape of Dreams 키 설정, 컨트롤러 지원, 퀵 캐스트, 이동 속도 설정."
+  },
+  "codes": {
+    "overviewTitle": "Shape of Dreams 코드",
+    "overviewDescription": "모든 활성 Shape of Dreams 코드와 사용 방법, 새 보상이 나올 때마다 업데이트."
+  },
+  "shared": {
+    "wikiNavigation": "위키 내비게이션",
+    "activeCodes": "활성 코드",
+    "updated": "업데이트",
+    "viewAllCodes": "모든 코드 보기",
+    "playOnRoblox": "Roblox에서 플레이",
+    "inThisSection": "이 섹션에서",
+    "tableOfContents": "목차",
+    "nextSteps": "다음 단계",
+    "needHelp": "도움이 필요하신가요?",
+    "relatedReading": "관련 읽을거리",
+    "relatedGuides": "관련 가이드",
+    "readMore": "더 보기",
+    "officialMedia": "공식 미디어",
+    "home": "홈",
+    "noGuidesAvailable": "아직 가이드가 없습니다. 곧 다시 확인해 주세요!"
+  },
+  "footer": {
+    "aboutTitle": "Shape of Dreams 위키",
+    "about": "Shape of Dreams 위키는 여행자, 기억, 정수, 루시드 드림, 보스, 빌드, 그리고 신규와 베테랑 플레이어 모두에게 필요한 핵심 게임 지식을 다루는 독립 팬 제작 가이드 허브입니다.",
+    "quickLinks": "빠른 링크",
+    "guides": "가이드",
+    "legal": "법적 고지",
+    "copyright": "2026 Shape of Dreams 위키. Lizard Smoothie 또는 NEOWIZ와 제휴 관계가 없습니다.",
+    "description": "핵앤슬래시 전투, MOBA 스타일 팀워크, 최대 4인 협동을 갖춘 협동 액션 로그라이트.",
+    "playGame": "Steam에서 Shape of Dreams 플레이",
+    "officialDiscord": "공식 Discord",
+    "officialYoutube": "공식 YouTube",
+    "vvBuilder": "공식 웹사이트",
+    "beginnerGuide": "초보자 가이드",
+    "characters": "캐릭터",
+    "mechanics": "메커니즘",
+    "builds": "빌드",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "서비스 약관"
+  }
+}

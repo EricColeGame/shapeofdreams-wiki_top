@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Complete Guides, Builds, Travelers & Tier Lists",
   description: "Shape of Dreams is a fast-paced action roguelite combining hack-and-slash combat, MOBA-style teamwork, flexible builds and up to 4-player co-op across ever-changing dream worlds.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://shapeofdreams-wiki.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://shapeofdreams-wiki.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@shapeofdreams-wiki.top",
   gameUrl: "https://store.steampowered.com/app/2444750/Shape_of_Dreams/",
   heroVideoId: "sUfcplBV6WU", // Shape of Dreams - Official Launch Trailer
   social: {
